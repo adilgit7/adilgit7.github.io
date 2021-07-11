@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>About Page</title>
+      <link rel="stylesheet" href="./css/About.css">
+      <link rel='stylesheet' href="./css/nav.css">
+      <link rel='icon' href="../images/logo.jpeg" type='image/x-icon'>
+
+</head>
+
+<body>
+      <nav>
+            <ul>
+                  <a href="./index.html">
+                        <li>Home</li>
+                  </a>
+                  <a href="./About.html">
+                        <li>Me</li>
+                  </a>
+                  <a href="./Project.html">
+                        <li>Education</li>
+                  </a>
+                  <a href="./contact.html">
+                        <li>Connect Me</li>
+                  </a>
+            </ul>
+            <div class="handle">
+                  <img class="logo" src="./images/logo.jpeg">
+                  <div class="menu_icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                  </div>
+            </div>
+      </nav>
+      <h1 class="section-header">ME, in a nutshell</h1>
+      <p class="container">
+            &emsp; Hola peeps! Adil here! A tech aspirant and a Computer science undergraduate at Government Engineering College Thrissur.
+             I am interested in technologies like AI and ML. Also interested in areas like data science, astronomy, physics etc.
+            I am good at programming in popular languages like Python and C. 
+            I am a football fanatic and a die hard fan of the best player of all time, Cristiano Ronaldo aka CR7. 
+            I am an aesthete too. I love art and am a music lover.
+      </p>
+      <script>
+            $('.handle').on('click', function () {
+                  $('nav ul').toggleClass('showing');
+            });
+      </script>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 600 60px "Montserrat", sans-serif;
+  color: #950fd3;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container {
+  background-color: #950fd3;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: justify;
+  align-items: center;
+  color:aliceblue;
+  padding: 1em 25%;
+  font: 300 20px "Oswald", sans-serif;
+  line-height: 2.0em;
+}
+
+@media screen and (max-width: 620px) {
+  .container {
+    padding: 0 30px;
+  }
+}
